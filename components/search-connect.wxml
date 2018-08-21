@@ -1,0 +1,13 @@
+<!--components/search-connect.wxml-->
+<view class='search-connect-wrap'>
+  <!-- 输入框 -->
+  <view class='content-list'>
+    <input placeholder='请输入' bindinput='searchInput' bindblur='searchBlur' value='{{message}}'></input>
+  </view>
+  <!--弹出层  -->
+  <view class='search-connect-pop' wx:if="{{isShow}}">
+    <view class='{{show}} pop'>
+      <view bindtap='dataClick' wx:for="{{searchArray}}" data-id='{{item.id}}' data-name='{{item.name}}'>{{item.name}}</view>
+    </view>
+  </view>
+</view>

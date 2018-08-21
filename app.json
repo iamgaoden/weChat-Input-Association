@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#353439",
+    "navigationBarTitleText": "输入联想",
+    "navigationBarTextStyle": "white"
+  }
+}

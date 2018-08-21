@@ -1,0 +1,34 @@
+/* components/search-connect.wxss */
+.search-connect-wrap{
+  position: relative;
+}
+.content-list{
+  padding: 30rpx 0 20rpx;
+  border-bottom: 2rpx solid #d7d9db;
+  font-size: 35rpx;
+  color: #353439;
+}
+.content-list input{
+  width: 100%;
+  display: inline-block;
+  margin-left: 40rpx;
+}
+.search-connect-pop{
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  background-color: #fff;
+}
+.search-connect-pop .pop{
+  padding: 20rpx 40rpx;
+  border: 1rpx solid #d7d9db;
+  border-top:0;
+  font-size: 34rpx;
+  color: #01cd9b;
+  max-height: 300rpx;
+  overflow:hidden;
+  overflow-y: scroll;
+}
+.search-connect-pop .pop view{
+  margin-bottom: 10rpx;
+}

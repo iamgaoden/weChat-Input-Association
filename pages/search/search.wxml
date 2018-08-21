@@ -1,0 +1,7 @@
+<!--pages/search/search.wxml-->
+<search-connect 
+  bindinputevent="inputListener" 
+  bindblurevent="blurListener" 
+  bindclickevent="clickListener" 
+  isShow="{{showPop}}" searchArray="{{array}}" dataId='{{item.id}}'>
+</search-connect>
