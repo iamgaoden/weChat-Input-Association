@@ -6,12 +6,12 @@ Getting Started.使用手册
 ## 属性方法列表
 
  #### 属性名	说明
-  * isShow      弹出层状态
-  * search      搜索结果
-  * dataId      搜索结果索引值
-  * bindinputevent      用户输入时触发
-  * bindblurevent	用户选择/点击搜索结果时触发
-  * bindclickeventinput	失去焦点时触发
+  * isShow>>>弹出层状态
+  * search>>>搜索结果
+  * dataId>>>搜索结果索引值
+  * bindinputevent>>>用户输入时触发
+  * bindblurevent>>>用户选择/点击搜索结果时触发
+  * bindclickeventinput>>>失去焦点时触发
   
   
 ## 使用方法：
@@ -24,5 +24,5 @@ Getting Started.使用手册
   	* 选中监听 clickListener
   	* 失去焦点监听blurListener
   
-  ##### demo数据为假数据，使用者可在自定义事件中发起request请求，获取真实搜索结果数据。
+  ##### demo数据为假数据，开发者可在自定义事件中发起request请求，获取真实搜索结果数据。
   
